@@ -1,0 +1,88 @@
+
+
+.parallax-effect-jos {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 900px;
+      height: 600px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center ;
+      background-image:url('../../assests/images/JOS.png') ;
+
+      color: black;
+
+      border-radius: 100px;
+
+      transform-style: preserve-3d;
+      .div-jos{
+            position: absolute;
+            bottom:60px;
+            right:-60px;
+        display: flex;
+        flex-direction: rows;
+        justify-content: flex-end;
+      }
+
+      .inner-element {
+            position: absolute;
+            bottom:-30px;
+            right:0;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: right;
+              font-size: 35px;
+              font-style: italic;
+              color: black;
+              transform: translateZ(60px);
+      }
+    }
+
+/* On screens that are 600px or less, set the background color to olive */
+// @media screen and (max-width: 600px) {
+//       .parallax-effect-jos {
+
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: center;
+//             align-items: center;
+//             width: 500px;
+//             height: 300px;
+//             background-size: 100%;
+//             background-repeat: no-repeat;
+//             background-position: center ;
+//             background-image:url('../../assests/images/JOS.png') ;
+
+//             color: black;
+
+//             border-radius: 100px;
+
+//             transform-style: preserve-3d;
+//             .div-jos{
+//                   position: absolute;
+//                   bottom:60px;
+//                   right:-60px;
+//               display: flex;
+//               flex-direction: rows;
+//               justify-content: flex-end;
+//             }
+
+//             .inner-element {
+//                   position: absolute;
+//                   bottom:-30px;
+//                   right:0;
+//                     display: flex;
+//                     flex-direction: column;
+//                     justify-content: center;
+//                     align-items: right;
+//                     font-size: 35px;
+//                     font-style: italic;
+//                     color: black;
+//                     transform: translateZ(60px);
+//             }
+//           }
+//     }

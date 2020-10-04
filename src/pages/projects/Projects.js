@@ -10,23 +10,40 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+import Cella from '../../components/placehoder/Cella-component'
+import Shackfolio from '../../components/placehoder/shackfolio-component'
+import JOS from '../../components/placehoder/jos-component'
+
+// list of projects I did
+
+
+
 class Projects extends Component {
+
   render() {
+// ====================================================================
+
+// ====================================================================
+
+
     const theme = this.props.theme;
+
     return (
       <div className="projects-main">
-        <Header theme={theme} />
+        {/* <Header theme={theme} /> */}
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <ProjectsImg theme={theme} />
+
+                {/* <ProjectsImg theme={theme} /> */}
               </div>
-              <div className="projects-heading-text-div">
+              <div className="projects-heading-text-div" style={{margin: "auto"
+ }}>
                 <h1
                   className="projects-heading-text"
                   style={{ color: theme.text }}
@@ -38,25 +55,77 @@ class Projects extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {projectsHeader["description"]}
+
                 </p>
               </div>
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
+
+      {/* start my personal project */}
+
+      <div style={{margin: "auto",
+  width: "50%"}}>
+
+        <Container>
+{/* ======================================================================================= */}
+
+        {/* Shackfolio */}
+        <Row >
+          <Col sm={6} md={6}  lg={12}>
+                      {/* project go here */}
+                        <Shackfolio/>
+
+                      </Col>
+
+
+          </Row>
+        {/* JOS */}
+        <Row style={{marginTop:"150px"}}>
+          <Col sm={6} md={12}  lg={12} >
+                      {/* project go here */}
+                        <JOS/>
+
+                      </Col>
+
+          </Row>
+
+
+
+
+        {/* Cella */}
+                <Row style={{marginTop:"150px" ,marginBottom:"300px"}}>
+                    <Col sm={6} md={12}  lg={12} >
+                    {/* project go here */}
+                      <Cella/>
+
+                    </Col>
+
+                  </Row>
+
+
+
+{/* ======================================================================================= */}
+
+
+      </Container>
+
+
+      </div>
+        {/* <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
-        </div>
-        <Button
+        </div> */}
+        {/* <Button
           text={"More Projects"}
           className="project-button"
           href="https://github.com/ashutosh1919"
           newTab={true}
           theme={theme}
-        />
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+        /> */}
+        {/* <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
+        <TopButton theme={this.props.theme} /> */}
       </div>
     );
   }

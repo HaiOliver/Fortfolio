@@ -119,8 +119,8 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Jquery",
+          fontAwesomeClassname: "simple-icons:jquery",
           style: {
             color: "#339933",
           },
@@ -133,49 +133,8 @@ const skills = {
           },
         },
       ],
-    },
-    // machine Learning&& AI
-    {
-      title: "Machine Learning & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
+    }
+
     ,
     // PHP, Laravel
     {
@@ -189,10 +148,17 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
+          skillName: "My SQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             color: "#4285F4",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
           },
         },
         {
@@ -202,13 +168,13 @@ const skills = {
             color: "#47A248",
           },
         },
-        // {
-        //   skillName: "AWS",
-        //   fontAwesomeClassname: "simple-icons:amazonaws",
-        //   style: {
-        //     color: "#FF9900",
-        //   },
-        // },
+        {
+          skillName: "Heroku",
+          fontAwesomeClassname: "simple-icons:heroku",
+          style: {
+            color: "#FF9900",
+          },
+        },
         {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
@@ -223,13 +189,13 @@ const skills = {
             color: "#FFCA28",
           },
         },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
+        // {
+        //   skillName: "PostgreSQL",
+        //   fontAwesomeClassname: "simple-icons:postgresql",
+        //   style: {
+        //     color: "#336791",
+        //   },
+        // },
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -278,6 +244,48 @@ const skills = {
         },
       ],
     },
+// machine Learning&& AI
+{
+  title: "Machine Learning & AI",
+  fileName: "DataScienceImg",
+  skills: [
+    "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+    "⚡ Experience of working with Computer Vision and NLP projects",
+    "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+  ],
+  softwareSkills: [
+    {
+      skillName: "Tensorflow",
+      fontAwesomeClassname: "logos-tensorflow",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    // {
+    //   skillName: "Keras",
+    //   fontAwesomeClassname: "simple-icons:keras",
+    //   style: {
+    //     backgroundColor: "white",
+    //     color: "#D00000",
+    //   },
+    // },
+    // {
+    //   skillName: "PyTorch",
+    //   fontAwesomeClassname: "logos-pytorch",
+    //   style: {
+    //     backgroundColor: "transparent",
+    //   },
+    // },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "ion-logo-python",
+      style: {
+        backgroundColor: "transparent",
+        color: "#3776AB",
+      },
+    },
+  ],
+},
   ],
 };
 
@@ -330,17 +338,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: " British Columbia Institute of Technology",
+      subtitle: "Computer Systems Technology Diploma Program",
       logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      alt_name: "BCIT",
+      duration: "2018 - Present",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.bcit.ca/study/programs/5500dipma",
     },
   ],
 };
