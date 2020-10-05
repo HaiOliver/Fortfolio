@@ -24,9 +24,20 @@ const JOS = (props) => {
                         <a href="#" style={{textDecoration:'none'}}>Coming soon...</a>
 
                 </div>
-                <div>
-                        <h5> An nice-looking UI, rich content Web Application for JOS community, I am in charge to design and build robust content in front end team.   </h5>
-                </div>
+                <div style={{fontSize:"20px", textAlign:"left"}}>
+
+
+
+                    <ul>
+                        <li>
+                          Building an beautiful UI/UX fullstack website app using React and Node.js, MySql.
+                        </li>
+
+                        <li>Check code, improve code and enhance the functionality and user experience of web applications.</li>
+                  </ul>
+
+
+</div>
 
             </div>
 

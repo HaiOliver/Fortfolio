@@ -16,12 +16,12 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
     "@fortawesome/free-solid-svg-icons": "^5.15.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
+    "@nivo/pie": "^0.62.0",
     "apollo-boost": "^0.4.4",
     "baseui": "^9.65.3",
     "bootstrap": "^4.5.2",
     "chart.js": "^2.9.3",
     "fs": "0.0.1-security",
-    "gh-pages": "^2.1.1",
     "graphql": "^14.5.8",
     "m-react-splitters": "^1.2.0",
     "node-fetch": "^2.6.1",
@@ -46,6 +46,7 @@
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.9",
     "@iconify/react": "^1.1.1",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "2.0.5"

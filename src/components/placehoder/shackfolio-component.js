@@ -23,8 +23,21 @@ const Shackfolio = (props) => {
                         <a href="http://shackfolio.com/" style={{textDecoration:'none'}}>http://shackfolio.com</a>
 
                 </div>
-                <div>
-                        <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </h5>
+                <div style={{fontSize:"20px", textAlign:"left"}}>
+
+
+
+                                <ul>
+                                    <li>
+                                      Building nice-looking fullstack web app using React, Laravel, CSS, JS.
+                                    </li>
+                                    <li>
+                                        Working directly with client stakeholders to develop technical solutions for business cases.
+                                    </li>
+                                    <li>Creating modular, responsive, customized userDashboard using modern React libraries.</li>
+                              </ul>
+
+
                 </div>
 
             </div>

@@ -12,12 +12,14 @@ class DegreeCard extends Component {
           <div className="card-img">
             <img
               style={{
-                maxWidth: "100%",
-                maxHeight: "100%",
-                transform: "scale(50%, 50%)",
+                position:"relative"
+                ,left:"-90px"
               }}
-              src={require(`../../assests/images/${degree.logo_path}`)}
+// bcit logo
+              src={require(`../../assests/images/bcit.png`)}
               alt={degree.alt_name}
+              width="300px"
+              height="300px"
             />
           </div>
         </Flip>

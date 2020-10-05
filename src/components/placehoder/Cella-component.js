@@ -22,9 +22,23 @@ const Cella = (props) => {
                         <a href="https://www.thecela.com/" style={{textDecoration:'none'}}>https://www.thecela.com/</a>
 
                 </div>
-                <div>
-                        <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </h5>
-                </div>
+                <div style={{fontSize:"20px", textAlign:"left"}}>
+
+
+
+                  <ul>
+                      <li>
+                        Apply modern JavaScript && Laravel to build full stack Web app.
+                      </li>
+                      <li>
+                      Assisting with the transition from a waterfall method to the more efficient Agile
+methodology.
+                      </li>
+                      <li>Leveraging responsive web frameworks to complete deliverables ahead of schedule.</li>
+                  </ul>
+
+
+</div>
 
             </div>
 

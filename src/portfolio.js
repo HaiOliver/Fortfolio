@@ -2,30 +2,23 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //Home Page
 const greeting = {
   title: "Oliver Huynh",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  logo_name: "OliverHuynh",
+  nickname: "FrontEnd dude",
   subTitle:
-    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A Front-end passionate individual who always thrive to work on end to end products which develop robust oriented-components for Web/mobile App.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/HaiOliver",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+
 
   {
     name: "Github",
@@ -35,40 +28,40 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "https://www.linkedin.com/in/oliver-huynh-429300110/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "YouTube",
+  //   link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
     link: "haioliver993@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
+  // {
+  //   name: "Twitter",
+  //   link: "https://twitter.com/ashutosh_1919",
+  //   fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+  //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  // },
   {
     name: "Facebook",
     link: "https://www.facebook.com/hoanghai.huynh.7",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/layman_brother/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -77,9 +70,10 @@ const skills = {
       title: "Front End Developer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Implementing web design and development principles to build stable software.",
+        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Creating the web application with fully functionalities to optimize user experience",
+
       ],
       softwareSkills: [
         {
@@ -141,10 +135,10 @@ const skills = {
       title: "Back End Developer",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Design and implement Restful API on multiple backend technologies: Node.js, Express & MongoDB",
+
+        "⚡ Design and configuration of the fully automated CI/CD lifecycle Web app",
+        // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
@@ -209,8 +203,8 @@ const skills = {
       title: "Android  &  IOS Developer",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Designing highly attractive user interface and robust contents for mobile and web applications",
+        "⚡ Developing mobile applications using Flutter, React Native and Swift",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
@@ -249,9 +243,9 @@ const skills = {
   title: "Machine Learning & AI",
   fileName: "DataScienceImg",
   skills: [
-    "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-    "⚡ Experience of working with Computer Vision and NLP projects",
-    "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+    "⚡ Passionate in Python Data Analytic and Data Visualization",
+    "⚡ Beginner level learning  Computer Vision and NLP projects",
+
   ],
   softwareSkills: [
     {
@@ -344,9 +338,9 @@ const degrees = {
       alt_name: "BCIT",
       duration: "2018 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have gained basic foundation about programming and learn how to solve real-world problem in industry",
+        "⚡ Apart from this, I have done courses on Udemy at high advanced level in JavaScript, CSS, React, Cyber Security, Full Stack Development.",
+
       ],
       website_link: "https://www.bcit.ca/study/programs/5500dipma",
     },
@@ -477,128 +471,64 @@ const experience = {
     {
       title: "Work",
       experiences: [
+
+
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          title: "Sale Association",
+          company: "Winner && Homesense",
+          company_url: "https://www.homesense.ca/en",
+          logo_path: "winner.png",
+          duration: "July 2019 - now",
+          location: "Vancouver, Canada",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "As a sale association, I assist and solve customer concern or demand in the our store ",
           color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
+        }
       ],
     },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Shackfolio",
+          company: "Shackfolio. Ltd.",
+          company_url: "http://shackfolio.com/",
+          logo_path: "shackfolioLogo.png",
+          duration: "Sept 2020 - now",
+          location: "Vancouver, Canada",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "I have worked on project as my internship in my last term. Our goal is building a real web/mobile application in real estate field,which helps people get their own house as soon as possible . Also, Assisted senior Front End Developers in designing web applications and gained skills in aligning designs with client requirements. Gained experience in resolving conflicts with colleagues professionally, learned to interact with clients, present designs and handle feedback on work",
+
           color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
+        }
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
+          title: "Jerome Outreach Society Community",
+          company: "JOS Community",
+          company_url: "https://jeromeoutreach.com/",
+          logo_path: "josLogo.jpg",
           duration: "June 2019 - April 2020",
           location: "Hyderabad, Telangana",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "I volunteered re-build for JOS website using React and Node.js ",
           color: "#4285F4",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
+          title: "Downtown Eastside Neighbourhood House",
+          company: "Eastside Neighbourhood Community",
+          company_url: "https://www.dtesnhouse.ca/",
+          logo_path: "vonlunteer.png",
+          duration: "Aug 2018 - Jan 2019",
           location: "Hyderabad, Telangana",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+            "I helped take care children as nanny in this community",
           color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
-          color: "#181717",
-        },
+        }
+
       ],
     },
   ],
@@ -608,7 +538,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools from FrontEnd to BackEnd. My best experience is to create Full Stack projects solving real-world problem in JOS community and Shackfolio and deploy by using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -618,7 +548,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me , I will reply within 24 hours. I am looking forward to meet you soon",
   },
   blogSection: {
     title: "Blogs",
@@ -628,15 +558,15 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
+    title: "Email",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+      "Haioliver993@gmail.com",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://www.google.ca/maps/place/BCIT+Downtown+Campus/@49.2834546,-123.1174435,17z/data=!3m1!4b1!4m5!3m4!1s0x54867178c6f02ee1:0xb4e03bf432e66714!8m2!3d49.2834511!4d-123.1152548",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8320758513",
+    subtitle: "604-652-8049",
   },
 };
 

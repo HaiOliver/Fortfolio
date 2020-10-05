@@ -11,7 +11,7 @@
       background-repeat: no-repeat;
       background-position: center ;
       background-image:url('../../assests/images/cella2.png') ;
-
+      box-shadow:  5px 10px 28px 5px #2a9d8f;
       // color: white;
       // border: 5px solid black;
       border-radius: 20px;
@@ -20,7 +20,7 @@
 
       .div-cella{
         position: absolute;
-        bottom:60px;
+        bottom:120px;
         right:-60px;
     display: flex;
     flex-direction: rows;
@@ -30,8 +30,9 @@
 
   .inner-element {
         position: absolute;
-        bottom:-30px;
+        bottom:-80px;
         right:0;
+        line-height: 32px;
           display: flex;
           flex-direction: column;
           justify-content: center;
