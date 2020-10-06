@@ -23,7 +23,7 @@ class Header extends Component {
       <Fade top duration={1000} distance="20px">
         <div>
           <header className="header">
-            <NavLink to={link} tag={Link} className="logo">
+            <NavLink to="/home" tag="/home" className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}

@@ -22,7 +22,7 @@ const Cella = (props) => {
                         <a href="https://www.thecela.com/" style={{textDecoration:'none'}}>https://www.thecela.com/</a>
 
                 </div>
-                <div style={{fontSize:"20px", textAlign:"left"}}>
+                <div className="text-cella">
 
 
 

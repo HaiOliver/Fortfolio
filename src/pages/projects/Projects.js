@@ -64,7 +64,7 @@ class Projects extends Component {
 
       {/* start my personal project */}
 
-      <div style={{margin: "auto",
+      <div  class="container-project" style={{margin: "auto",
   width: "50%"}}>
 
         <Container>
@@ -72,7 +72,7 @@ class Projects extends Component {
 
         {/* Shackfolio */}
         <Row >
-          <Col sm={6} md={6}  lg={12}>
+          <Col sm>
                       {/* project go here */}
                         <Shackfolio/>
 
@@ -82,7 +82,7 @@ class Projects extends Component {
           </Row>
         {/* JOS */}
         <Row style={{marginTop:"150px"}}>
-          <Col sm={6} md={12}  lg={12} >
+          <Col sm >
                       {/* project go here */}
                         <JOS/>
 
@@ -95,7 +95,7 @@ class Projects extends Component {
 
         {/* Cella */}
                 <Row style={{marginTop:"150px" ,marginBottom:"300px"}}>
-                    <Col sm={6} md={12}  lg={12} >
+                    <Col sm >
                     {/* project go here */}
                       <Cella/>
 
@@ -112,20 +112,7 @@ class Projects extends Component {
 
 
       </div>
-        {/* <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
-        </div> */}
-        {/* <Button
-          text={"More Projects"}
-          className="project-button"
-          href="https://github.com/ashutosh1919"
-          newTab={true}
-          theme={theme}
-        /> */}
-        {/* <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} /> */}
+
       </div>
     );
   }

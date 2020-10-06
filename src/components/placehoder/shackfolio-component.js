@@ -23,8 +23,8 @@ const Shackfolio = (props) => {
                         <a href="http://shackfolio.com/" style={{textDecoration:'none'}}>http://shackfolio.com</a>
 
                 </div>
-                <div style={{fontSize:"20px", textAlign:"left"}}>
-
+                <div className="text-shackfolio" >
+                {/* style={{fontSize:"20px", textAlign:"left"}} */}
 
 
                                 <ul>

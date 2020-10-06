@@ -24,7 +24,7 @@ const JOS = (props) => {
                         <a href="#" style={{textDecoration:'none'}}>Coming soon...</a>
 
                 </div>
-                <div style={{fontSize:"20px", textAlign:"left"}}>
+                <div className="text-jos">
 
 
 

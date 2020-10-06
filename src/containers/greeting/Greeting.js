@@ -4,7 +4,10 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
+
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -30,17 +33,16 @@ export default function Greeting(props) {
 
             </div>
           </div>
-          <div className="greeting-image-div">
-            <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/this.png")}
-							style={{position:"relative",
-            top:"-50px",
-            left:"240px"
 
-							}}
-						></img>
-            {/* <FeelingProud theme={theme} /> */}
+          <div className="greeting-image-div">
+
+                <img
+                							alt="saad sitting on table"
+                							src={require("../../assests/images/this.png")}
+
+                ></img>
+
+
           </div>
         </div>
       </div>

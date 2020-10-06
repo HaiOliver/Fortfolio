@@ -83,6 +83,12 @@ const data = [
     "value": 5,
     "color": "hsl(159, 70%, 50%)"
   },
+  {
+    "id": "Dot.Net ",
+    "label": "Dot.Net",
+    "value": 5,
+    "color": "hsl(159, 70%, 50%)"
+  }
 ]
 
 class Home extends Component {
@@ -96,7 +102,7 @@ class Home extends Component {
         <Skills theme={this.props.theme} />
         {/* show summary skill */}
         <Container >
-          <h1 style={{textAlign:"center", fontSize:"80px"}}>Summary my tech skills:</h1>
+          <h1 lg= {true} style={{textAlign:"center", fontSize:"80px"}}>Summary my tech skills:</h1>
           <Row style={{height:"700px",width:"auto"}}>
 
             <ChartSkill data={data}/>
@@ -104,12 +110,13 @@ class Home extends Component {
           </Row>
 
 
-        </Container>
-        <Container style={{marginTop:"30px"}}>
+        </Container >
+        <Container style={{marginTop:"auto" }}>
         <h3 style={{textAlign:"center", fontSize:"60px",marginBottom:"30px"}}>Skills, Languages & Technologies</h3>
+
         <Row >
 
-          <Col xs style={{fontSize:"20px", lineHeight:"50px"}}>
+          <Col sm style={{fontSize:"20px", lineHeight:"50px"}}>
               <h1>Advanced</h1>
               <ul className="d-flex flex-column">
                   <li>React</li>
@@ -120,7 +127,7 @@ class Home extends Component {
 
               </ul>
           </Col>
-          <Col xs style={{fontSize:"20px", lineHeight:"50px"}}>
+          <Col sm style={{fontSize:"20px", lineHeight:"50px"}}>
           <h1>Good</h1>
               <ul className="d-flex flex-column">
                   <li>MySql</li>
@@ -129,10 +136,11 @@ class Home extends Component {
                   <li>PhP</li>
                   <li>Laravel</li>
                   <li>Flutter</li>
+                  <li>Dot.Net</li>
                   <li>PWA</li>
               </ul>
           </Col>
-          <Col xs style={{fontSize:"20px", lineHeight:"50px"}}>
+          <Col sm style={{fontSize:"20px", lineHeight:"50px"}}>
           <h1>Good enough</h1>
               <ul className="d-flex flex-column">
                   <li>Machine Learning</li>

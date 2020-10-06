@@ -19,6 +19,7 @@
       transform-style: preserve-3d;
 
       .div-cella{
+
         position: absolute;
         bottom:120px;
         right:-60px;
@@ -41,5 +42,86 @@
           font-style: italic;
           color: black;
           transform: translateZ(60px);
+          .text-cella{
+            font-size: 20px;
+            text-align: left;
+        }
+        a{
+          color:brown;
+          font-size: 40px;
+          text-align: center;
+        }
   }
     }
+
+
+// ===========================
+
+
+@media (max-width: 575.98px) {
+
+  .parallax-effect-cella {
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-image:url('../../assests/images/cella2.png') ;
+    box-shadow: 1px 4px 18px 2px #2a9d8f;
+                // -5px -10px 18px 5px #2a9d8f,
+                // 25px 30px 18px 5px #2a9d8f;
+    color: white;
+    // border: 5px solid black;
+    border-radius: 5px;
+
+    transform-style: preserve-3d;
+    .div-cella{
+      transform: scale(0.5);
+          position: absolute;
+          bottom:100px;
+          right:-80px;
+            display: flex;
+            flex-direction: rows;
+            justify-content: flex-end;
+            transform-style: preserve-3d;
+    }
+
+
+    .inner-element {
+
+          position: absolute;
+          bottom:-85px;
+          right:0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: right;
+            font-size: 15 px;
+            font-style: italic;
+            color: black;
+            line-height: 15px;
+            transform: translateZ(60px);
+            transform-style: preserve-3d;
+            .text-cella{
+              font-size: 12px;
+              text-align: left;
+          }
+          a{
+            color:brown;
+            font-size: 20px;
+            text-align: center;
+          }
+
+    }
+
+
+  }
+
+
+}
