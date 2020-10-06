@@ -33,7 +33,7 @@ export default function Greeting(props) {
           <div className="greeting-image-div">
             <img
 							alt="saad sitting on table"
-							src={require("../../assests/images/oliver-circle.png")}
+							src={require("../../assests/images/this.png")}
 							style={{position:"relative",
             top:"-50px",
             left:"240px"
