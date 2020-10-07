@@ -56,8 +56,9 @@
 
 @media (max-width: 768px) {
   .heading-text {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20px;
+
   }
 
   .heading-sub-text {
@@ -67,4 +68,8 @@
   .heading-div {
     flex-direction: column;
   }
+
+
+
+
 }

@@ -47,7 +47,7 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
-                {/* <div className="resume-btn-div">
+                <div className="resume-btn-div">
 
                   <Button
                     text="See My Resume"
@@ -55,7 +55,7 @@ class Contact extends Component {
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div> */}
+                </div>
               </div>
             </div>
           </Fade>

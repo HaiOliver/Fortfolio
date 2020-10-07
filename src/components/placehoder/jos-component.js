@@ -30,8 +30,9 @@ const JOS = (props) => {
 
                     <ul>
                         <li>
-                          Building an beautiful UI/UX fullstack website app using React and Node.js, MySql.
+                          Building an beautiful UI/UX fullstack website app using React and Node.js, MySql
                         </li>
+<li>Learned to interact with clients, present designs and handle feedback on work</li>
 
                         <li>Check code, improve code and enhance the functionality and user experience of web applications.</li>
                   </ul>

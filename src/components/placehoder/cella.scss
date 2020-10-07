@@ -67,7 +67,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     height: 250px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@
 
     transform-style: preserve-3d;
     .div-cella{
-      transform: scale(0.5);
+      transform: scale(0.3);
           position: absolute;
           bottom:100px;
           right:-80px;
@@ -109,7 +109,7 @@
             transform: translateZ(60px);
             transform-style: preserve-3d;
             .text-cella{
-              font-size: 12px;
+              font-size: 10px;
               text-align: left;
           }
           a{

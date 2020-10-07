@@ -28,13 +28,13 @@ const Cella = (props) => {
 
                   <ul>
                       <li>
-                        Apply modern JavaScript && Laravel to build full stack Web app.
+                        Apply modern JavaScript && Laravel to build full stack Web app
                       </li>
                       <li>
                       Assisting with the transition from a waterfall method to the more efficient Agile
-methodology.
+methodology
                       </li>
-                      <li>Leveraging responsive web frameworks to complete deliverables ahead of schedule.</li>
+                      <li>Creating new features, functionality and capabilities on eCommerce sites using advanced CSS, JavaScript and modern libraries</li>
                   </ul>
 
 

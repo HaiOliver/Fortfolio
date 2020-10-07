@@ -21,10 +21,10 @@ class Education extends Component {
               <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
-                <h1 className="heading-text" style={{ color: theme.text,textAlign:"center", fontSize:"90px" }}>
+                <h1 className="heading-text" style={{ color: theme.text,textAlign:"center" }}>
                   Education
                 </h1>
-                <img src={image} style={{height:"300px"}}/>
+                <img src={image} style={{height:"300px" ,width:"auto"}}/>
 
               </div>
             </div>

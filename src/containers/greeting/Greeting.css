@@ -39,7 +39,8 @@
 
 .greeting-nickname {
   font-size: 30px;
-  line-height: 0px;
+  height:20px;
+  line-height: 10px;
   font-family: "Google Sans Bold Italic";
 }
 
@@ -76,15 +77,21 @@
     text-align: center;
   }
   .greeting-nickname {
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
+    height:30px;
+    line-height: 10px;
+    /* width: 70px; */
   }
+
+
   .greeting-text-p {
     font-size: 16px;
     margin-right: 0px;
     line-height: normal;
     text-align: center;
   }
+
   .greeting-main {
     display: flex;
   }

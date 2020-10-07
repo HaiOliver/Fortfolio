@@ -9,11 +9,11 @@ const settings = {
 const greeting = {
   title: "Oliver Huynh",
   logo_name: "OliverHuynh",
-  nickname: "FrontEnd dude",
+  nickname: "( FrontEnd dude )",
   subTitle:
-    "A Front-end passionate individual who always thrive to work on end to end products which develop robust oriented-components for Web/mobile App.",
+    "Technical and highly motivated front end developer, with technical skills end to end software development and web application designing, possessing knowledge of various software languages and tools with fierce passion about user experience and integrating software per the requirement and enhancing the working ability of IT systems. ",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "",
   portfolio_repository: "https://github.com/HaiOliver",
 };
 
@@ -70,8 +70,8 @@ const skills = {
       title: "Front End Developer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Implementing web design and development principles to build stable software.",
-        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Implementing web design and development principles to build stable software",
+        "⚡ Ensured scalability of front end elements by optimizing them for loading speed and performance",
         "⚡ Creating the web application with fully functionalities to optimize user experience",
 
       ],
@@ -130,81 +130,13 @@ const skills = {
     }
 
     ,
-    // PHP, Laravel
-    {
-      title: "Back End Developer",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Design and implement Restful API on multiple backend technologies: Node.js, Express & MongoDB",
 
-        "⚡ Design and configuration of the fully automated CI/CD lifecycle Web app",
-        // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "My SQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        // {
-        //   skillName: "PostgreSQL",
-        //   fontAwesomeClassname: "simple-icons:postgresql",
-        //   style: {
-        //     color: "#336791",
-        //   },
-        // },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-      ],
-    },
     {
       title: "Android  &  IOS Developer",
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface and robust contents for mobile and web applications",
-        "⚡ Developing mobile applications using Flutter, React Native and Swift",
+        "⚡ Developing cross-platform mobile applications with Flutter, React Native and Swift",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
@@ -240,14 +172,67 @@ const skills = {
     },
 // machine Learning&& AI
 {
-  title: "Machine Learning & AI",
+  title: "Back End && Machine Learning",
   fileName: "DataScienceImg",
   skills: [
+    "⚡ Design and implement Restful API on multiple backend technologies: Node.js, Express & MongoDB",
+
+    "⚡ Design and configuration of the fully automated CI/CD lifecycle Web app",
     "⚡ Passionate in Python Data Analytic and Data Visualization",
     "⚡ Beginner level learning  Computer Vision and NLP projects",
 
   ],
   softwareSkills: [
+    {
+      skillName: "My SQL",
+      fontAwesomeClassname: "simple-icons:mysql",
+      style: {
+        color: "#4285F4",
+      },
+    },
+    {
+      skillName: "NodeJS",
+      fontAwesomeClassname: "simple-icons:node-dot-js",
+      style: {
+        color: "#339933",
+      },
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "simple-icons:mongodb",
+      style: {
+        color: "#47A248",
+      },
+    },
+    {
+      skillName: "Heroku",
+      fontAwesomeClassname: "simple-icons:heroku",
+      style: {
+        color: "#FF9900",
+      },
+    },
+    {
+      skillName: "Azure",
+      fontAwesomeClassname: "simple-icons:microsoftazure",
+      style: {
+        color: "#0089D6",
+      },
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "simple-icons:firebase",
+      style: {
+        color: "#FFCA28",
+      },
+    },
+
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "simple-icons:docker",
+      style: {
+        color: "#1488C6",
+      },
+    },
     {
       skillName: "Tensorflow",
       fontAwesomeClassname: "logos-tensorflow",
@@ -255,21 +240,7 @@ const skills = {
         backgroundColor: "transparent",
       },
     },
-    // {
-    //   skillName: "Keras",
-    //   fontAwesomeClassname: "simple-icons:keras",
-    //   style: {
-    //     backgroundColor: "white",
-    //     color: "#D00000",
-    //   },
-    // },
-    // {
-    //   skillName: "PyTorch",
-    //   fontAwesomeClassname: "logos-pytorch",
-    //   style: {
-    //     backgroundColor: "transparent",
-    //   },
-    // },
+
     {
       skillName: "Python",
       fontAwesomeClassname: "ion-logo-python",
@@ -465,7 +436,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have been working as a front end developer almost every single project on my developer life.",
+    "",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -481,7 +452,7 @@ const experience = {
           duration: "July 2019 - now",
           location: "Vancouver, Canada",
           description:
-            "As a sale association, I assist and solve customer concern or demand in the our store ",
+            "Greeting customers, responding to questions, improving engagement with merchandise and providing outstanding customer service. Operating cash registers, managing financial transactions, and balancing drawers. Achieving established goals. ",
           color: "#9b1578",
         }
       ],
@@ -497,7 +468,7 @@ const experience = {
           duration: "Sept 2020 - now",
           location: "Vancouver, Canada",
           description:
-            "I have worked on project as my internship in my last term. Our goal is building a real web/mobile application in real estate field,which helps people get their own house as soon as possible . Also, Assisted senior Front End Developers in designing web applications and gained skills in aligning designs with client requirements. Gained experience in resolving conflicts with colleagues professionally, learned to interact with clients, present designs and handle feedback on work",
+            "I have worked on project as my internship in my last term. Our goal is building a real web/mobile application in real estate field, which helps people get their own house as soon as possible. Also, Assisted senior Front End Developers in designing web applications and gained skills in aligning designs with client requirements. Gained experience in resolving conflicts with colleagues professionally, learned to interact with clients, present designs and handle feedback on work.",
 
           color: "#ee3c26",
         }
@@ -514,7 +485,7 @@ const experience = {
           duration: "June 2019 - April 2020",
           location: "Hyderabad, Telangana",
           description:
-            "I volunteered re-build for JOS website using React and Node.js ",
+            "I volunteered re-build for JOS website using React and Node.js .Collaborated with web designers, back end developers and UX designers to design, build, test and improve JOS web. ",
           color: "#4285F4",
         },
         {
@@ -525,7 +496,7 @@ const experience = {
           duration: "Aug 2018 - Jan 2019",
           location: "Hyderabad, Telangana",
           description:
-            "I helped take care children as nanny in this community",
+            "I helped take care children as nanny in this community 3 times/week",
           color: "#D83B01",
         }
 

@@ -38,12 +38,13 @@ class Projects extends Component {
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
-              <div className="projects-heading-img-div">
+              {/* <div className="projects-heading-img-div">
 
-                {/* <ProjectsImg theme={theme} /> */}
-              </div>
-              <div className="projects-heading-text-div" style={{margin: "auto"
- }}>
+
+              </div> */}
+              <div className="projects-heading-text-div"
+
+ >
                 <h1
                   className="projects-heading-text"
                   style={{ color: theme.text }}
@@ -64,10 +65,9 @@ class Projects extends Component {
 
       {/* start my personal project */}
 
-      <div  class="container-project" style={{margin: "auto",
-  width: "50%"}}>
+      <div >
 
-        <Container>
+        <Container class="container-project">
 {/* ======================================================================================= */}
 
         {/* Shackfolio */}
@@ -76,17 +76,18 @@ class Projects extends Component {
                       {/* project go here */}
                         <Shackfolio/>
 
-                      </Col>
+          </Col>
 
 
           </Row>
+
         {/* JOS */}
-        <Row style={{marginTop:"150px"}}>
+        <Row style={{margin:"150px"}}>
           <Col sm >
                       {/* project go here */}
                         <JOS/>
 
-                      </Col>
+          </Col>
 
           </Row>
 
@@ -94,7 +95,7 @@ class Projects extends Component {
 
 
         {/* Cella */}
-                <Row style={{marginTop:"150px" ,marginBottom:"300px"}}>
+                <Row style={{marginTop:"100px" ,marginBottom:"300px"}}>
                     <Col sm >
                     {/* project go here */}
                       <Cella/>
