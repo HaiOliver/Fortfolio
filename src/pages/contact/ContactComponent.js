@@ -27,10 +27,10 @@ class Contact extends Component {
               <div className="contact-heading-img-div">
 {/* Oliver pic here */}
                 <img
-                  src={require(`../../assests/images/final.png`)}
-                  alt=""
-                  width="600px"
-                  style={{position:"relative", left:"80px", top:"-250px"}}
+                  src={require(`../../assests/images/this.png`)}
+                  alt="this.png"
+                  // width="600px"
+                  // style={{position:"relative", left:"80px", top:"-250px"}}
                 />
               </div>
               <div className="contact-heading-text-div">

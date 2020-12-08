@@ -11,9 +11,9 @@ const greeting = {
   logo_name: "OliverHuynh",
   nickname: "( FrontEnd dude )",
   subTitle:
-    "Technical and highly motivated front end developer, with technical skills end to end software development and web application designing, possessing knowledge of various software languages and tools with fierce passion about user experience and integrating software per the requirement and enhancing the working ability of IT systems. ",
+    "I am a technical and highly motivated front end developer, with skills in end-to-end software development. I have experience in web application design and possess knowledge in various software languages and tools. I have a fierce passion for user experience, integrating software, and enhancing the working ability of IT systems.",
   resumeLink:
-    "",
+    "https://drive.google.com/file/d/1Twr9Ndi0wxRVvFV59ZABu7UHHckHUpKt/view?usp=sharing",
   portfolio_repository: "https://github.com/HaiOliver",
 };
 
@@ -452,7 +452,7 @@ const experience = {
           duration: "July 2019 - now",
           location: "Vancouver, Canada",
           description:
-            "Greeting customers, responding to questions, improving engagement with merchandise and providing outstanding customer service. Operating cash registers, managing financial transactions, and balancing drawers. Achieving established goals. ",
+            "Experienced with greeting customers, responding to questions, improving engagement with merchandise, and providing outstanding customer service. I also have experience with operating cash registers, managing financial transactions, and balancing drawers. ",
           color: "#9b1578",
         }
       ],
@@ -468,7 +468,7 @@ const experience = {
           duration: "Sept 2020 - now",
           location: "Vancouver, Canada",
           description:
-            "I have worked on project as my internship in my last term. Our goal is building a real web/mobile application in real estate field, which helps people get their own house as soon as possible. Also, Assisted senior Front End Developers in designing web applications and gained skills in aligning designs with client requirements. Gained experience in resolving conflicts with colleagues professionally, learned to interact with clients, present designs and handle feedback on work.",
+            "I worked with Shackfolio as part of my internship during my last term at BCIT. Our goal was to build a real web/mobile application in the real estate field. This application is focused on helping everyday people with home ownership. I assisted senior front-end developers in the design process and gained skills in aligning designs with client requirements. I also gained experience in resolving conflicts with colleagues professionally, interacting with clients, and presenting designs and handling feedback on my work.",
 
           color: "#ee3c26",
         }
@@ -485,7 +485,7 @@ const experience = {
           duration: "June 2019 - April 2020",
           location: "Hyderabad, Telangana",
           description:
-            "I volunteered re-build for JOS website using React and Node.js .Collaborated with web designers, back end developers and UX designers to design, build, test and improve JOS web. ",
+            "I volunteered to rebuild the existing Jerome Outreach Society (JOS) website using React and Node.js. I collaborated with web designers, back end developers and UX designers to design, build, test and improve the JOS website.",
           color: "#4285F4",
         },
         {
@@ -516,7 +516,7 @@ const projectsHeader = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
+    title: "Hello Me",
     profile_image_path: "animated_ashutosh.png",
     description:
       "I am available on almost every social media. You can message me , I will reply within 24 hours. I am looking forward to meet you soon",

@@ -29,7 +29,7 @@ const Shackfolio = (props) => {
 
                                 <ul>
                                     <li>
-                                      Building nice-looking fullstack web app using React, Laravel, CSS, JS.
+                                    Designed and developed GUIs for applications and modules using JavaScript.
                                     </li>
                                     <li>
                                         Working directly with client stakeholders to develop technical solutions for business cases.

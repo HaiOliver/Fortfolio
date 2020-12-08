@@ -38,7 +38,7 @@ export default function Greeting(props) {
 
                 <img
                 							alt="saad sitting on table"
-                							src={require("../../assests/images/this.png")}
+                							src={require("../../assests/images/photoOliver-min.png")}
 
                 ></img>
 
