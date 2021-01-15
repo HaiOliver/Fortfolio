@@ -25,12 +25,12 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
-{/* Oliver pic here */}
+                {/* Oliver pic here */}
                 <img
                   src={require(`../../assests/images/this.png`)}
                   alt="this.png"
                   // width="600px"
-                  // style={{position:"relative", left:"80px", top:"-250px"}}
+                  style={{ position: "relative", left: "80px" }}
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -48,7 +48,6 @@ class Contact extends Component {
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
-
                   <Button
                     text="See My Resume"
                     newTab={true}
@@ -63,7 +62,6 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-
                 <AddressImg theme={theme} />
               </div>
               <div className="address-heading-text-div">
