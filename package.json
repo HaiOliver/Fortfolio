@@ -8,8 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
-    "test": "react-scripts test"
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
