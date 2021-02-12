@@ -13,13 +13,11 @@ const greeting = {
   subTitle:
     "I am a technical and highly motivated front end developer, with skills in end-to-end software development. I have experience in web application design and possess knowledge in various software languages and tools. I have a fierce passion for user experience, integrating software, and enhancing the working ability of IT systems.",
   resumeLink:
-    "https://drive.google.com/file/d/1Twr9Ndi0wxRVvFV59ZABu7UHHckHUpKt/view?usp=sharing",
+    "https://drive.google.com/file/d/1Xh5ZG2U2rgM1GGxMqFPMfYqNjhRshvXh/view?usp=sharing",
   portfolio_repository: "https://github.com/HaiOliver",
 };
 
 const socialMediaLinks = [
-
-
   {
     name: "Github",
     link: "https://github.com/HaiOliver",
@@ -73,7 +71,6 @@ const skills = {
         "⚡ Implementing web design and development principles to build stable software",
         "⚡ Ensured scalability of front end elements by optimizing them for loading speed and performance",
         "⚡ Creating the web application with fully functionalities to optimize user experience",
-
       ],
       softwareSkills: [
         {
@@ -127,9 +124,7 @@ const skills = {
           },
         },
       ],
-    }
-
-    ,
+    },
 
     {
       title: "Android  &  IOS Developer",
@@ -170,87 +165,86 @@ const skills = {
         },
       ],
     },
-// machine Learning&& AI
-{
-  title: "Back End && Machine Learning",
-  fileName: "DataScienceImg",
-  skills: [
-    "⚡ Design and implement Restful API on multiple backend technologies: Node.js, Express & MongoDB",
+    // machine Learning&& AI
+    {
+      title: "Back End && Machine Learning",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Design and implement Restful API on multiple backend technologies: Node.js, Express & MongoDB",
 
-    "⚡ Design and configuration of the fully automated CI/CD lifecycle Web app",
-    "⚡ Passionate in Python Data Analytic and Data Visualization",
-    "⚡ Beginner level learning  Computer Vision and NLP projects",
+        "⚡ Design and configuration of the fully automated CI/CD lifecycle Web app",
+        "⚡ Passionate in Python Data Analytic and Data Visualization",
+        "⚡ Beginner level learning  Computer Vision and NLP projects",
+      ],
+      softwareSkills: [
+        {
+          skillName: "My SQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Heroku",
+          fontAwesomeClassname: "simple-icons:heroku",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
 
-  ],
-  softwareSkills: [
-    {
-      skillName: "My SQL",
-      fontAwesomeClassname: "simple-icons:mysql",
-      style: {
-        color: "#4285F4",
-      },
-    },
-    {
-      skillName: "NodeJS",
-      fontAwesomeClassname: "simple-icons:node-dot-js",
-      style: {
-        color: "#339933",
-      },
-    },
-    {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "simple-icons:mongodb",
-      style: {
-        color: "#47A248",
-      },
-    },
-    {
-      skillName: "Heroku",
-      fontAwesomeClassname: "simple-icons:heroku",
-      style: {
-        color: "#FF9900",
-      },
-    },
-    {
-      skillName: "Azure",
-      fontAwesomeClassname: "simple-icons:microsoftazure",
-      style: {
-        color: "#0089D6",
-      },
-    },
-    {
-      skillName: "Firebase",
-      fontAwesomeClassname: "simple-icons:firebase",
-      style: {
-        color: "#FFCA28",
-      },
-    },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
 
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "simple-icons:docker",
-      style: {
-        color: "#1488C6",
-      },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
     },
-    {
-      skillName: "Tensorflow",
-      fontAwesomeClassname: "logos-tensorflow",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "ion-logo-python",
-      style: {
-        backgroundColor: "transparent",
-        color: "#3776AB",
-      },
-    },
-  ],
-},
   ],
 };
 
@@ -311,7 +305,6 @@ const degrees = {
       descriptions: [
         "⚡ I have gained basic foundation about programming and learn how to solve real-world problem in industry",
         "⚡ Apart from this, I have done courses on Udemy at high advanced level in JavaScript, CSS, React, Cyber Security, Full Stack Development.",
-
       ],
       website_link: "https://www.bcit.ca/study/programs/5500dipma",
     },
@@ -435,15 +428,12 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:
-    "",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
-
-
         {
           title: "Sale Association",
           company: "Winner && Homesense",
@@ -454,7 +444,7 @@ const experience = {
           description:
             "Experienced with greeting customers, responding to questions, improving engagement with merchandise, and providing outstanding customer service. I also have experience with operating cash registers, managing financial transactions, and balancing drawers. ",
           color: "#9b1578",
-        }
+        },
       ],
     },
     {
@@ -471,7 +461,7 @@ const experience = {
             "I worked with Shackfolio as part of my internship during my last term at BCIT. Our goal was to build a real web/mobile application in the real estate field. This application is focused on helping everyday people with home ownership. I assisted senior front-end developers in the design process and gained skills in aligning designs with client requirements. I also gained experience in resolving conflicts with colleagues professionally, interacting with clients, and presenting designs and handling feedback on my work.",
 
           color: "#ee3c26",
-        }
+        },
       ],
     },
     {
@@ -498,8 +488,7 @@ const experience = {
           description:
             "I helped take care children as nanny in this community 3 times/week",
           color: "#D83B01",
-        }
-
+        },
       ],
     },
   ],
@@ -530,10 +519,10 @@ const contactPageData = {
   },
   addressSection: {
     title: "Email",
-    subtitle:
-      "Haioliver993@gmail.com",
+    subtitle: "Haioliver993@gmail.com",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.ca/maps/place/BCIT+Downtown+Campus/@49.2834546,-123.1174435,17z/data=!3m1!4b1!4m5!3m4!1s0x54867178c6f02ee1:0xb4e03bf432e66714!8m2!3d49.2834511!4d-123.1152548",
+    location_map_link:
+      "https://www.google.ca/maps/place/BCIT+Downtown+Campus/@49.2834546,-123.1174435,17z/data=!3m1!4b1!4m5!3m4!1s0x54867178c6f02ee1:0xb4e03bf432e66714!8m2!3d49.2834511!4d-123.1152548",
   },
   phoneSection: {
     title: "Phone Number",
