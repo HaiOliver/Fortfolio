@@ -2,24 +2,20 @@ import React, { Component } from "react";
 import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
 import "./Projects.css";
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Cella from '../../components/placehoder/Cella-component'
-import Shackfolio from '../../components/placehoder/shackfolio-component'
-import JOS from '../../components/placehoder/jos-component'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Cella from "../../components/placehoder/Cella-component";
+import Shackfolio from "../../components/placehoder/shackfolio-component";
+import JOS from "../../components/placehoder/jos-component";
 
 // list of projects I did
 
-
-
 class Projects extends Component {
-
   render() {
-// ====================================================================
+    // ====================================================================
 
-// ====================================================================
-
+    // ====================================================================
 
     const theme = this.props.theme;
 
@@ -33,9 +29,7 @@ class Projects extends Component {
 
 
               </div> */}
-              <div className="projects-heading-text-div"
-
- >
+              <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
                   style={{ color: theme.text }}
@@ -47,64 +41,45 @@ class Projects extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {projectsHeader["description"]}
-
                 </p>
               </div>
             </div>
           </Fade>
         </div>
 
-      {/* start my personal project */}
+        {/* start my personal project */}
 
-      <div >
+        <div>
+          <Container class="container-project">
+            {/* ======================================================================================= */}
 
-        <Container class="container-project">
-{/* ======================================================================================= */}
+            {/* Shackfolio */}
+            <Row style={{ marginTop: "100px", marginBottom: "250px" }}>
+              <Col sm>
+                {/* project go here */}
+                <Shackfolio />
+              </Col>
+            </Row>
 
-        {/* Shackfolio */}
-        <Row >
-          <Col sm>
-                      {/* project go here */}
-                        <Shackfolio/>
+            {/* JOS */}
+            <Row style={{ marginBottom: "200px" }}>
+              <Col sm>
+                {/* project go here */}
+                <JOS />
+              </Col>
+            </Row>
 
-          </Col>
+            {/* Cella */}
+            <Row style={{ marginTop: "100px", marginBottom: "450px" }}>
+              <Col sm>
+                {/* project go here */}
+                <Cella />
+              </Col>
+            </Row>
 
-
-          </Row>
-
-        {/* JOS */}
-        <Row style={{margin:"150px"}}>
-          <Col sm >
-                      {/* project go here */}
-                        <JOS/>
-
-          </Col>
-
-          </Row>
-
-
-
-
-        {/* Cella */}
-                <Row style={{marginTop:"100px" ,marginBottom:"300px"}}>
-                    <Col sm >
-                    {/* project go here */}
-                      <Cella/>
-
-                    </Col>
-
-                  </Row>
-
-
-
-{/* ======================================================================================= */}
-
-
-      </Container>
-
-
-      </div>
-
+            {/* ======================================================================================= */}
+          </Container>
+        </div>
       </div>
     );
   }
