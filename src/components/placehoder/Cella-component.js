@@ -23,7 +23,7 @@ const Cella = (props) => {
                 <div className="text-cella">
                   <ul>
                       <li>
-                      Self-taught about Tensorflow, Keras, Numpy, Pandas, Scikit-Learn, Matplotlib.
+                      Self-taught: Tensorflow, Keras, Numpy, Pandas, Scikit-Learn, Matplotlib.
                       </li>
                       <li> IDE used: Google Colab.</li>
                       <li>
