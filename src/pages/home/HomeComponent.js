@@ -124,6 +124,8 @@ class Home extends Component {
                 <li>JavaScript</li>
                 <li>Css</li>
                 <li>Python</li>
+                <li>Node.js</li>
+                <li>HTML5</li>
               </ul>
             </Col>
             <Col
@@ -136,12 +138,9 @@ class Home extends Component {
               <ul className="d-flex flex-column">
                 <li>MySql</li>
                 <li>MongoDB</li>
-                <li>Node.js</li>
                 <li>PhP</li>
                 <li>Laravel</li>
                 <li>Flutter</li>
-                <li>Dot.Net</li>
-                <li>PWA</li>
               </ul>
             </Col>
             <Col
@@ -154,6 +153,7 @@ class Home extends Component {
               <ul className="d-flex flex-column">
                 <li>Machine Learning</li>
                 <li>Azure</li>
+                <li>Dot.Net</li>
                 <li>Docker</li>
                 <li>Swift</li>
                 <li>AWS</li>

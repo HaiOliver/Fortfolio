@@ -11,7 +11,7 @@ const greeting = {
   logo_name: "OliverHuynh",
   nickname: "( FrontEnd dude )",
   subTitle:
-    "I am a technical and highly motivated front end developer, with skills in end-to-end software development. I have experience in web application design and possess knowledge in various software languages and tools. I have a fierce passion for user experience, integrating software, and enhancing the working ability of IT systems.",
+    "I am a highly motivated end-to-end front-end developer, with significant experiences in web application design and possessing knowledge in various software languages and tools. Besides that, I have a fierce passion for user experience, integrating software, and enhancing the working ability of IT systems.",
   resumeLink:
     "https://drive.google.com/file/d/1Xh5ZG2U2rgM1GGxMqFPMfYqNjhRshvXh/view?usp=sharing",
   portfolio_repository: "https://github.com/HaiOliver",
