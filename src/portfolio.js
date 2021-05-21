@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "I am a highly motivated end-to-end front-end developer, with significant experiences in web application design and possessing knowledge in various software languages and tools. Besides that, I have a fierce passion for user experience, integrating software, and enhancing the working ability of IT systems.",
   resumeLink:
-    "https://drive.google.com/file/d/1Xh5ZG2U2rgM1GGxMqFPMfYqNjhRshvXh/view?usp=sharing",
+    "https://drive.google.com/file/d/1Twr9Ndi0wxRVvFV59ZABu7UHHckHUpKt/view",
   portfolio_repository: "https://github.com/HaiOliver",
 };
 
