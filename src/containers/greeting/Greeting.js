@@ -5,10 +5,6 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-
 export default function Greeting(props) {
   const theme = props.theme;
   return (
@@ -21,7 +17,7 @@ export default function Greeting(props) {
                 {greeting.title}
               </h1>
               <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                 {greeting.nickname}
+                {greeting.nickname}
               </h2>
               <p
                 className="greeting-text-p subTitle"
@@ -30,19 +26,15 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia theme={theme} />
-
             </div>
           </div>
 
-          <div className="greeting-image-div">
-
-                <img
+          <div className="greeting-image-div" id="three-container">
+            {/* <img
                 							alt="saad sitting on table"
                 							src={require("../../assests/images/photoOliver-min.png")}
 
-                ></img>
-
-
+                ></img> */}
           </div>
         </div>
       </div>
