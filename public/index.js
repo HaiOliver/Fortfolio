@@ -18,7 +18,7 @@ function init() {
   var slide = new Slide(width, height, 'out');
 	var l1 = new THREE.ImageLoader();
   l1.setCrossOrigin('Anonymous');
-	l1.load('./oliver-5.jpg' ,
+	l1.load('./oli6.jpg' ,
   function(img) {
 	  slide.setImage(img);
 	})
