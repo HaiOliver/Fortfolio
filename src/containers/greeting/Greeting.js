@@ -1,7 +1,7 @@
 import React from "react";
 import "./Greeting.css";
+import background from "./patternpad2.svg";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 
@@ -9,11 +9,18 @@ export default function Greeting(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
-      <div className="greet-main" id="greeting">
+      <div
+        className="greet-main"
+        id="greeting"
+        style={{ backgroundImage: `url(${background})` }}
+      >
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
+              {/* <h1 className="greeting-text" style={{ color: theme.secondaryText }}>
+                {greeting.title}
+              </h1> */}
+              <h1 className="greeting-text" style={{ color: "#8B38AA" }}>
                 {greeting.title}
               </h1>
               <h2 className="greeting-nickname" style={{ color: theme.text }}>
@@ -21,7 +28,7 @@ export default function Greeting(props) {
               </h2>
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
+                style={{ color: "#D023BE" }}
               >
                 {greeting.subTitle}
               </p>
@@ -29,13 +36,7 @@ export default function Greeting(props) {
             </div>
           </div>
 
-          <div className="greeting-image-div" id="three-container">
-            {/* <img
-                							alt="saad sitting on table"
-                							src={require("../../assests/images/photoOliver-min.png")}
-
-                ></img> */}
-          </div>
+          <div className="greeting-image-div" id="three-container"></div>
         </div>
       </div>
     </Fade>
