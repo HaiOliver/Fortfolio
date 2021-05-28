@@ -1,6 +1,6 @@
 import React from "react";
 import "./Greeting.css";
-import background from "./patternpad2.svg";
+import background from "./Protruding-Squares.svg";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
@@ -17,7 +17,7 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: "#8B38AA" }}>
+              <h1 className="greeting-text" style={{ color: "#354B46" }}>
                 {greeting.title}
               </h1>
               <h2 className="greeting-nickname" style={{ color: theme.text }}>
@@ -25,7 +25,7 @@ export default function Greeting(props) {
               </h2>
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: "#D023BE" }}
+                style={{ color: "#2D9564" }}
               >
                 {greeting.subTitle}
               </p>
