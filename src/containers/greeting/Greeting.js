@@ -1,6 +1,6 @@
 import React from "react";
 import "./Greeting.css";
-import background from "./Protruding-Squares.svg";
+import background from "./Protruding-Squares1.svg";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
