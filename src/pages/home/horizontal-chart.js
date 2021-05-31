@@ -49,9 +49,19 @@ export default class Chart extends Component {
             responsive: true,
             legend: {
               labels: {
-                fontSize: window.innerWidth > 350 ? 20 : 10,
+                fontSize:
+                  window.innerWidth > 800
+                    ? 20
+                    : window.innerWidth > 500
+                    ? 10
+                    : 5,
                 fontColor: "#00988A",
-                padding: window.innerWidth > 350 ? 30 : 20,
+                padding:
+                  window.innerWidth > 800
+                    ? 30
+                    : window.innerWidth > 500
+                    ? 20
+                    : 10,
               },
             },
             scales: {
@@ -59,7 +69,12 @@ export default class Chart extends Component {
                 {
                   ticks: {
                     beginAtZero: true,
-                    fontSize: window.innerWidth > 350 ? 20 : 10,
+                    fontSize:
+                      window.innerWidth > 800
+                        ? 20
+                        : window.innerWidth > 500
+                        ? 10
+                        : 5,
                     fontColor: "#458D81",
                   },
                 },
@@ -67,7 +82,12 @@ export default class Chart extends Component {
               yAxes: [
                 {
                   ticks: {
-                    fontSize: window.innerWidth > 350 ? 20 : 10,
+                    fontSize:
+                      window.innerWidth > 800
+                        ? 20
+                        : window.innerWidth > 500
+                        ? 10
+                        : 5,
                     fontColor: "#00C6AA",
                     fontStyle: "bold",
                   },
@@ -80,7 +100,12 @@ export default class Chart extends Component {
                   maxBarThickness: 100,
                   categoryPercentage: 1.0,
                   barPercentage: 1.0,
-                  barThickness: 25,
+                  barThickness:
+                    window.innerWidth > 800
+                      ? 25
+                      : window.innerWidth > 500
+                      ? 10
+                      : 5,
                 },
               ],
             },
