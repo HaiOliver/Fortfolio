@@ -427,7 +427,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, Internship and Volunteer",
   description: "",
   header_image_path: "experience.svg",
   sections: [
@@ -455,7 +455,7 @@ const experience = {
           company: "Shackfolio. Ltd.",
           company_url: "http://shackfolio.com/",
           logo_path: "shackfolioLogo.png",
-          duration: "Sept 2020 - now",
+          duration: "Sept 2020 - Dec 2020",
           location: "Vancouver, Canada",
           description:
             "I worked with Shackfolio as part of my internship during my last term at BCIT. Our goal was to build a real web/mobile application in the real estate field. This application is focused on helping everyday people with home ownership. I assisted senior front-end developers in the design process and gained skills in aligning designs with client requirements. I also gained experience in resolving conflicts with colleagues professionally, interacting with clients, and presenting designs and handling feedback on my work.",
@@ -465,15 +465,15 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Volunteers",
       experiences: [
         {
           title: "Jerome Outreach Society Community",
           company: "JOS Community",
           company_url: "https://jeromeoutreach.com/",
           logo_path: "josLogo.jpg",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          duration: "May 2020 - Now",
+          location: "495 West Georgia Street, #4756 Vancouver, B.C, V6B 4A4",
           description:
             "I volunteered to rebuild the existing Jerome Outreach Society (JOS) website using React and Node.js. I collaborated with web designers, back end developers and UX designers to design, build, test and improve the JOS website.",
           color: "#4285F4",
@@ -484,7 +484,7 @@ const experience = {
           company_url: "https://www.dtesnhouse.ca/",
           logo_path: "vonlunteer.png",
           duration: "Aug 2018 - Jan 2019",
-          location: "Hyderabad, Telangana",
+          location: " 573 E Hastings St, Vancouver, BC V6A 1P9",
           description:
             "I helped take care children as nanny in this community 3 times/week",
           color: "#D83B01",
