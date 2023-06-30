@@ -1,4 +1,3 @@
-import React from "react";
 import Tilt from "react-parallax-tilt";
 import "./jos.scss";
 
@@ -33,8 +32,11 @@ const JOS = (props) => {
         </div>
 
         <div style={{ marginBottom: "10px" }}>
-          <a href="#" style={{ textDecoration: "none" }}>
-            Https:// coming soon
+          <a
+            href="https://classicalu.com/schole-group/jos-nigeria-schole-community/"
+            style={{ textDecoration: "none" }}
+          >
+            coming soon ... !
           </a>
         </div>
         <div className="text-jos">

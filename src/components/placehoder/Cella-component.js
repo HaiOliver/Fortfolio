@@ -1,4 +1,3 @@
-import React from "react";
 import Tilt from "react-parallax-tilt";
 import "./cella.scss";
 
@@ -33,7 +32,11 @@ const Cella = (props) => {
           ></i>
         </div>
         <div style={{ marginBottom: "10px" }}>
-          <a href="#" style={{ textDecoration: "none" }} className="ML">
+          <a
+            href="http://celladevelopment.ca/our-company"
+            style={{ textDecoration: "none" }}
+            className="ML"
+          >
             Machine Learning Model
           </a>
         </div>
