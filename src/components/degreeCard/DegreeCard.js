@@ -12,10 +12,10 @@ class DegreeCard extends Component {
           <div className="card-img">
             <img
               style={{
-                position:"relative"
-                ,left:"-90px"
+                position: "relative",
+                left: "-90px",
               }}
-// bcit logo
+              // bcit logo
               src={require(`../../assests/images/bcit.png`)}
               alt={degree.alt_name}
               width="300px"
@@ -43,7 +43,7 @@ class DegreeCard extends Component {
                 </h3>
               </div>
             </div>
-            <div classname="body-content">
+            <div className="body-content">
               {degree.descriptions.map((sentence) => {
                 return (
                   <p className="content-list" style={{ color: theme.text }}>

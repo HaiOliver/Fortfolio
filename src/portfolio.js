@@ -9,9 +9,9 @@ const settings = {
 const greeting = {
   title: "Oliver Huynh",
   logo_name: "OliverHuynh",
-  nickname: "( FrontEnd dude )",
+  nickname: "( front-end enthusiast )",
   subTitle:
-    "I am a highly motivated end-to-end front-end developer, with significant experiences in web application design and possessing knowledge in various software languages and tools. Besides that, I have a fierce passion for user experience, integrating software, and enhancing the working ability of IT systems.",
+    "I am an enthusiastic and driven end-to-end front-end developer, bringing with me a wealth of experience in designing dynamic web applications. My skill set encompasses a diverse range of software languages and tools. Beyond technical expertise, I am deeply dedicated to creating exceptional user experiences, seamlessly integrating software solutions, and elevating the overall operational efficiency of IT systems.",
   resumeLink:
     "https://drive.google.com/file/d/1Twr9Ndi0wxRVvFV59ZABu7UHHckHUpKt/view",
   portfolio_repository: "https://github.com/HaiOliver",
@@ -68,11 +68,33 @@ const skills = {
       title: "Front End Developer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Implementing web design and development principles to build stable software",
-        "⚡ Ensured scalability of front end elements by optimizing them for loading speed and performance",
-        "⚡ Creating the web application with fully functionalities to optimize user experience",
+        "⚡ Crafting visually stunning, user-centric interfaces with proficiency in modern frameworks like React and Angular",
+        "⚡ Ensuring high-performing, responsive web apps through optimization and problem-solving",
+        "⚡ Collaboratively solving challenges, staying updated with technology trends, and enhancing user experiences",
       ],
       softwareSkills: [
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "red",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -94,21 +116,7 @@ const skills = {
             color: "#CC6699",
           },
         },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
+
         {
           skillName: "Jquery",
           fontAwesomeClassname: "simple-icons:jquery",
@@ -130,9 +138,9 @@ const skills = {
       title: "Android  &  IOS Developer",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface and robust contents for mobile and web applications",
-        "⚡ Developing cross-platform mobile applications with Flutter, React Native and Swift",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Crafting captivating user interfaces and resilient content for mobile and web applications",
+        "⚡ Building cross-platform mobile apps with Flutter, React Native, and Swift",
+        "⚡ Sculpting seamless application functionality flow for optimal user experiences",
       ],
       softwareSkills: [
         {
@@ -498,7 +506,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools from FrontEnd to BackEnd. My best experience is to create Full Stack projects solving real-world problem in JOS community and Shackfolio and deploy by using cloud infrastructure.",
+    " I have effectively leveraged a wide array of cutting-edge technology tools spanning from FrontEnd to BackEnd development. Notably, my standout experiences revolve around crafting comprehensive Full Stack projects that address real-world challenges within the Regs4ships, JOS community and Shackfolio. These projects have been designed, developed, and successfully deployed utilizing cloud infrastructure solutions.",
   avatar_image_path: "projects_image.svg",
 };
 

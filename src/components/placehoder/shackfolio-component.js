@@ -38,8 +38,6 @@ const Shackfolio = (props) => {
           </a>
         </div>
         <div className="text-shackfolio">
-          {/* style={{fontSize:"20px", textAlign:"left"}} */}
-
           <ul>
             <li>
               Designed and developed GUIs for applications and modules using

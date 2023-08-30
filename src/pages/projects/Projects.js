@@ -7,6 +7,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Cella from "../../components/placehoder/Cella-component";
 import Shackfolio from "../../components/placehoder/shackfolio-component";
+import OneOcean from "../../components/placehoder/oneOcean-component.js";
 import JOS from "../../components/placehoder/jos-component";
 
 // list of projects I did
@@ -52,7 +53,13 @@ class Projects extends Component {
         <div>
           <Container class="container-project">
             {/* ======================================================================================= */}
-
+            {/* OneOcean */}
+            <Row style={{ marginTop: "100px", marginBottom: "250px" }}>
+              <Col sm>
+                {/* project go here */}
+                <OneOcean />
+              </Col>
+            </Row>
             {/* Shackfolio */}
             <Row style={{ marginTop: "100px", marginBottom: "250px" }}>
               <Col sm>
